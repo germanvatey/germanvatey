@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "EB Garamond", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    background-color: #202024;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lobster", serif;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.logo {
+    border-radius: 45%;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+.header-first-child, .header-second-child {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+
+
+.header-first-child a:hover, .header-second-child a:hover {
+    color: #1d4c7c;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.hero-block {
+    width: 500px;
+}
+
+.information {
+    padding: 10px 25px;
+    background-color:#FF8000 ;
+    color: #ffffff;
+    border-radius: 100px;
+}
+
+.hero-block a:hover {
+    background-color: #ad5700;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.hero-block p {
+    margin-bottom: 25px;
+}
+
+.information-game {
+    padding: 10px 15px;
+    background-color:#4e4b4b ;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.information-game:hover {
+    opacity: 0.7;
+}
+
+
+
+.rating-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 200px
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.free-game-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.free-game-title {
+    display: flex;
+}
+
+.free-game {
+    padding: 15px;
+    background-color: #202024;
+    border-radius: 10px;
+}
+
+.game {
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-list div img {
+    border-radius: 10px;
+}
+
+.interface {
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interface div {
+    width: 400px;
+}
+
+.interface div p {
+    margin-top: 15px;
+}
+
+.rating div  div p {
+    margin-top: 15px;
+}
+
+.are-in-great-demand{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.games-cards a div {
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.games-cards a div img {
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;
+    display: block;
+}
+
+.games-cards a:hover div img {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.temka-img {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.temka-img img {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+}
+
+.temka-img-inside {
+    position: relative;
+    width: 100%;
+}
+
+.footer {
+    padding-top: 30px;
+}
+
+.footer-wrapper{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ulli{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.Epic {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Epic p {
+    width: 700px;
+    
+}
+
+.gitar {
+    border-radius: 100px;
+    background-color: #FF8000;
+    color: #ffffff;
+    padding: 10px 25px;
+}
+
+.gitar:hover {
+    opacity: 0.7;
+}
+
+.mrta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.over{
+display: flex;
+justify-content: space-between;
+}
+
+@media(max-width:1024px){
+   
+}
+@media(max-width:768px){
+   
+}
+@media(max-width:600px){
+   
+}
+@media(max-width:480px){
+   
+}
+@media(max-width:320px){
+   
+}
